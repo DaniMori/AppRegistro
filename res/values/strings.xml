@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">SAR 2014</string>
+    <string name="title_activity_main">Autorregistro</string>
+    <string name="anxiety_1">1</string>
+    <string name="anxiety_2">2</string>
+    <string name="anxiety_3">3</string>
+    <string name="anxiety_4">4</string>
+    <string name="anxiety_5">5</string>
+    <string name="anxiety_6">6</string>
+    <string name="situation_prompt">Situación:</string>
+    <string name="situation_hint">Explica la situación en la que te encontrabas cuando te fumaste el cigarrillo (e.g., dónde estabas, qué estabas haciendo, con quién, etc.)</string>
+    <string name="button_send">Enviar</string>
+    <string name="correct_response">Datos recibidos correctamente</string>
+    <string name="err_conn_unavailable">No se han podido enviar los datos. Inténtalo más tarde.</string>
+    
+</resources>

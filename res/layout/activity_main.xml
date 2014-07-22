@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sar2014.autorregistro.Autorregistrar" >
+
+    <Button
+        android:id="@+id/set_time_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onChangeTime" />
+    
+    <Button
+        android:id="@+id/set_date_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onChangeDate" />
+    
+    <RadioGroup
+        android:id="@+id/anxiety_scale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/anxiety_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/anxiety_1" />
+
+        <RadioButton
+            android:id="@+id/anxiety_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/anxiety_2" />
+
+        <RadioButton
+            android:id="@+id/anxiety_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/anxiety_3" />
+
+        <RadioButton
+            android:id="@+id/anxiety_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/anxiety_4" />
+
+        <RadioButton
+            android:id="@+id/anxiety_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/anxiety_5" />
+
+        <RadioButton
+            android:id="@+id/anxiety_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/anxiety_6" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/situation_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/situation_prompt" />
+
+    <EditText
+        android:id="@+id/situation_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/situation_hint" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:text="@string/button_send" />
+
+</LinearLayout>
